@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    font-size: 1rem;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+.header{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.content{
+    max-width: 40rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+
+}
+
+.hvideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.hvideo video{
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+.overlay{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: 2;
+    opacity: .70;
+}
+
+.textos{
+    z-index: 3;
+}
+
+.textos h1{
+    font-size: 60px;
+    margin-bottom: 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.textos p{
+    font-size: 1.5rem;
+    display: block;
+    padding-bottom: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+.btngit{
+    position: relative;
+    z-index: 99;
+    display: inline-block;
+    padding: 10px 10px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-size: 60px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 1ms;
+}
+
+.btntw{
+    position: relative;
+    z-index: 99;
+    display: inline-block;
+    padding: 10px 10px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-size: 60px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 1ms;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background: rgba(255, 147, 192, 0.356);
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, pink);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    transition: 0.2s;
+    background: linear-gradient(transparent, rgb(255, 112, 136));
+}
+
+.pvideo{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.overlayj{
+    transition: 1s;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    background: #000;
+    z-index: 2;
+    opacity: .90;
+}
+
+.overlayj:hover{
+    transition: 0.5s;
+    opacity: 0.70;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    color: #fff;
+    text-align: center;
+
+}
+
+.proyectos{
+    z-index: 3;
+}
+
+.proyectos h1{
+    font-size: 60px;
+    margin-bottom: 0;
+    top: -200px;
+    font-family: 'Rajdhani', sans-serif;
+    position: relative;
+}
+
+.proyectos p{
+    font-size: 20px;
+    margin-bottom: 0;
+    top: -200px;
+    font-family: 'Rajdhani', sans-serif;
+    position: relative;
+}
+
+.btnp1{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    padding: 15px 40px;
+    transition: 0.3s;
+}
+
+.btnp1:hover{
+    transition: 0.3s;
+    background: rgb(239,136,255);
+    background: linear-gradient(163deg, rgba(239,136,255), rgba(0,212,255));
+    box-shadow: 0 0 10px rgba(239,136,255), 0 0 40px rgba(239,136,255), 0 0 80px rgba(0,212,255);
+}
+
+/*footer{
+    background-image: url(https://www.pixel4k.com/wp-content/uploads/2018/11/anime-cityscape-landscape-scenery-4k_1541975011.jpg);
+    background-size: 100vh 100vw;
+    background-attachment: fixed;
+}
+
+.formulario form{
+    width: 500px;
+    color: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.formulario h2{
+    color: #fff;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 35;
+    margin-bottom: 20;
+}
+
+.formulario input textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+}*/
+
